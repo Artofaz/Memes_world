@@ -26,7 +26,7 @@ document.getElementById('submit_btn_post').addEventListener('click', () => {
     let txt0 = document.getElementById('edittext0').value;
     let txt1 = document.getElementById('edittext1').value;
 
-    fetch(`https://api.imgflip.com/caption_image?template_id=${templateID}&username=Artofaz&password=newPSW12&text0=${txt0}&text1=${txt1}`)
+    fetch(`https://api.imgflip.com/caption_image?template_id=${templateID}&username=YOURUSERNAME&password=YOURPSW&text0=${txt0}&text1=${txt1}`)
         .then(res => res.json())
         .then(data => {
                 $('#title').append(`
